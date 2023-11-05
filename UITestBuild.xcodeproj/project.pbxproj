@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A145F0912AF8267B008100CD /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A145F0902AF8267B008100CD /* BudgetView.swift */; };
+		A145F0932AF82750008100CD /* FloatingTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A145F0922AF82750008100CD /* FloatingTabBarView.swift */; };
 		A1ED90D02AF5B02D001A40D3 /* SafeAreaInsetsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED90CF2AF5B02D001A40D3 /* SafeAreaInsetsKey.swift */; };
 		A1ED90D22AF6223D001A40D3 /* BookTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED90D12AF6223D001A40D3 /* BookTabView.swift */; };
 		A1ED90D42AF62269001A40D3 /* MovieTrackingPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ED90D32AF62269001A40D3 /* MovieTrackingPath.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A145F0902AF8267B008100CD /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		A145F0922AF82750008100CD /* FloatingTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBarView.swift; sourceTree = "<group>"; };
 		A1ED90CF2AF5B02D001A40D3 /* SafeAreaInsetsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetsKey.swift; sourceTree = "<group>"; };
 		A1ED90D12AF6223D001A40D3 /* BookTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTabView.swift; sourceTree = "<group>"; };
 		A1ED90D32AF62269001A40D3 /* MovieTrackingPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrackingPath.swift; sourceTree = "<group>"; };
@@ -55,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A145F08F2AF811B5008100CD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A145F0902AF8267B008100CD /* BudgetView.swift */,
+				A145F0922AF82750008100CD /* FloatingTabBarView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		A1ED90D52AF622A0001A40D3 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +107,7 @@
 		A1ED90E52AF69F36001A40D3 /* Budget */ = {
 			isa = PBXGroup;
 			children = (
+				A145F08F2AF811B5008100CD /* Screens */,
 				A1ED90E72AF6A066001A40D3 /* BudgetMainView.swift */,
 			);
 			path = Budget;
@@ -229,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A145F0912AF8267B008100CD /* BudgetView.swift in Sources */,
 				A1ED90DC2AF62347001A40D3 /* BookModel.swift in Sources */,
 				A1ED90D72AF622B1001A40D3 /* DummyBookView.swift in Sources */,
 				A1F5117E2AF59D7700CC9C93 /* BookTrackingMainView.swift in Sources */,
@@ -238,6 +253,7 @@
 				A1ED90D92AF622FA001A40D3 /* DummyBookCaruselView.swift in Sources */,
 				A1ED90DF2AF62A90001A40D3 /* BookDetailView.swift in Sources */,
 				A1ED90E12AF63521001A40D3 /* UserProfileTabView.swift in Sources */,
+				A145F0932AF82750008100CD /* FloatingTabBarView.swift in Sources */,
 				A1F5116E2AF5835A00CC9C93 /* UITestBuildApp.swift in Sources */,
 				A1ED90E82AF6A066001A40D3 /* BudgetMainView.swift in Sources */,
 				A1ED90D42AF62269001A40D3 /* MovieTrackingPath.swift in Sources */,
